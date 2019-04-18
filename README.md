@@ -1,7 +1,17 @@
 # 4180project - Sketches using the Rasberry Pi
 # by: William Harrer, Maria Padilla Fuentes, Arianne Perez, Ethan Vargas
 
-The project is a Raspberry Pi Web controlled home security system. It has three parts which are gateway control, user recognition, and Web GUI control. The first part allows user to unlock the door (represented by solenoid) by verifying his fingerprint. User recognition part will send the user a email with snapshot for warning if it detects motion. Web GUI is designed to make user able to get live stream video from multiple Raspberry Pi Cameras, change shooting angles, and even take a picture by clicking a button. If the user finds a invader, he can send different sound alerts to home from the Web GUI.
+1. Brief Description of Design Project:
+
+Our team’s design project will be a robotic drawing machine that makes use of a linear motion kit (available in the lab) that moves a pen along an x- and y-axis to draw a picture. A user-provided grayscale image is processed to produce a series of (x,y)-coordinates; these coordinates will be used to command the servos and draw a version of the image using one continuous line. The image processing and servo control will all be done using a Pi 3, and a camera that can be used to take pictures that can be processed and drawn will be connected. A simple GUI will also be provided that allows users to choose which image they would like to have drawn. 
+2. List any closely related projects (URLs) and describe how your project will be different or improved.
+
+https://github.com/SuperMakeSomething/robotic-drawing-machine
+
+Our project will use the image-parsing code and physical set-up of this project (a robotic drawing machine) in order to provide the same functionality. However, our project will use a linear motion kit (instead of a system created from scratch) and the Pi 3 (instead of an Arduino). Also, our project will streamline the entire process by allowing a picture to be taken with a camera connected to the Pi, processing that image natively on the Pi, and then commanding the servos to draw a one-line version of that image. The robotic drawing machine project did not do this, requiring the user to process an image on a different device using Matlab and then transfer the newly created file to the Arduino via an SD card.
+3. If you need any parts or software not available in the lab or in your parts kit, what is your plan to obtain the parts quickly (within 10 days)?
+Most of the required parts (as listed in the project that we are building off of and the parts that we will use to replace some components) are available in the lab and/or invention studio. For additional materials, we can make a trip to home depot.
+
 
 ## Proof I can add a picture
 ![](blue_pic.png)
