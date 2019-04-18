@@ -24,7 +24,7 @@ The project is a Raspberry Pi Web controlled home security system. It has three 
 - Website Console <img src=/images/9.JPG>
 
 ## Demo Video
-[![Proof I can make Video/Place Demo Video here](maria_pf_pic.png)](https://www.youtube.com/watch?v=ybxjrKqWdE4&t=46s)
+[![Proof I can make Video/Place Demo Video here](maria_pf_pic)](https://www.youtube.com/watch?v=ybxjrKqWdE4&t=46s)
 
 ## Future Work
 - Store multiple fingerprints in a SD card
